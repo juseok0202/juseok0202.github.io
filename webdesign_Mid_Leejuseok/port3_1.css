@@ -66,6 +66,18 @@ body{
     margin-top: 150px;
     margin-bottom: 30px;
     justify-content: center;
-    
+    z-index: 10;
 
+}
+.name{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    z-index: 10;
+   
+   
 }

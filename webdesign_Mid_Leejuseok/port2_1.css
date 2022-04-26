@@ -1,0 +1,105 @@
+/* *{border:solid 0.1px red} */
+
+
+body{
+    background-color: #000;    
+}
+.background-image{
+    display: block;
+    position:fixed;
+    width:60%;
+    z-index: -3;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+::-webkit-scrollbar { 
+    display: none;
+}
+.header{
+    display: flex; 
+    position: fixed;
+    width:100%;
+    margin-top:30px;
+    justify-content: center;
+    z-index: 10;
+}
+.logo{
+    width: 340px;
+
+}
+
+.logo>img{
+    
+    width:100%;
+}
+.pic{
+    width: 100%;
+    
+}
+
+.pic>img{
+    width:100%;
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; 
+    height: auto; 
+    justify-content: center;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width:100%;
+    color: black;
+    margin-top: 100px;
+}
+.name-gro{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+
+}
+    
+
+    
+.name{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+   
+   
+}
+.img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.project2{
+    width:750px;
+    height: 1080px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom:80px;
+}
+.project1>img{
+    height: 100%;
+    
+ }

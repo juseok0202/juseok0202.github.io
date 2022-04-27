@@ -71,8 +71,8 @@ body{
     width:100%;
 }
 .project1{
-    width:500px;
-    height:300px;
+    width:30vw;
+    height:20vw;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom:80px;
@@ -90,8 +90,8 @@ body{
 }
 
 .project2{
-    width:500px;
-    height:300px;
+    width:30vw;
+    height:20vw;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom:80px;
@@ -110,8 +110,8 @@ body{
 }
 
 .project3{
-    width:500px;
-    height:300px;
+    width:30vw;
+    height:20vw;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom:80px;
@@ -129,8 +129,8 @@ body{
 }
 
 .project4{
-    width:400px;
-    height:600px;
+    width:30vw;
+    height:45vw;
     border-radius: 20px;
     overflow: hidden;
     

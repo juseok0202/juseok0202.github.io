@@ -27,7 +27,7 @@ body{
 .logo{
     position: relative;
     justify-content: center;
-    width: 18vw;
+    width: 20rem;
     left:50%;
     transform: translate(-50%);
     
@@ -62,10 +62,10 @@ body{
     margin: 25px;
     align-items: center;
     display: flex;
-    width: 12vw;
-    height: 4vw;
+    width: 180px;
+    height: 60px;
     border-radius: 20px;
-    font-size: 1.5vw;
+    font-size: 20px;
     transition: 0.2s;
     text-decoration: none;
     

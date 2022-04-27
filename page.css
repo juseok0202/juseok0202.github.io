@@ -27,9 +27,11 @@ body{
 .logo{
     position: relative;
     justify-content: center;
-    width: 20rem;
+    width:300px;
+    
     left:50%;
     transform: translate(-50%);
+    
     
     
     

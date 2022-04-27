@@ -93,13 +93,13 @@ body{
     width:100%;
 }
 .project2{
-    width:44vw;
-    height: 62vw;
+    width: 56vw;
+    height: 80vw;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom:80px;
 }
-.project1>img{
+.project2>img{
     height: 100%;
     
  }

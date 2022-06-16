@@ -22,7 +22,7 @@ body{
     z-index: 10;
 }
 .logo{
-    width: 340px;
+    width: 80px;
 
 }
 
@@ -68,4 +68,7 @@ body{
     justify-content: center;
     
 
+}
+.box1{
+    position: absolute;
 }

@@ -26,8 +26,6 @@ body{
 }
 .logo{
     width: 80px;
-    margin-left:-1%;
-    
 
 }
 
@@ -94,14 +92,14 @@ body{
     justify-content: center;
     width:100%;
 }
-.project1{
-    width:1050px;
-    height: 600px;
+.project2{
+    width:750px;
+    height: 1080px;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom:80px;
 }
-.project1>img{
-    height: 100%;
+.project2>img{
+    width: 120%;
     
  }

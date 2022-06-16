@@ -1,4 +1,4 @@
-/* *{border: solid 0.1px red;} */
+*{border: solid 0.1px red;}
 
 body{
     background-color: black;
@@ -12,9 +12,20 @@ body{
     position:fixed ;
     width:60%;
     z-index: -3;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
+    left:-80%;
+    top:-50%;
+    transform: translate(80%,80%);
+    opacity: 0.2;
+}
+.background-image2{
+    display: block;
+    position:fixed ;
+    width:60%;
+    z-index: -3;
+    left:100%;
+    top:-40%;
+    transform: translate(-50%,0%);
+    opacity: 0.2;
 }
 
 .pic{
@@ -33,9 +44,11 @@ body{
     margin-top:30px;
     justify-content: center;
     z-index: 10;
+    left:50%;
+    transform:translate(-50%)
 }
 .logo{
-    width: 340px;
+    width: 70px;
 
 }
 
@@ -69,13 +82,43 @@ body{
     display: flex;
     justify-content: center;
     width:100%;
+    
+    
+}
+.box{
+    background: white;
+    width: 470px;
+    height:300px;
+    border-radius: 3px;
+    position: absolute;
+    left:36%;
+    top:5%;
+    
 }
 .project1{
-    width:300px;
-    height:212px;
-    border-radius: 20px;
+    
+    width:500px;
+    height:290px;
+    border-radius: 5px;
     overflow: hidden;
-    margin-bottom:50px;
+    margin-bottom:80px;
+    background: rgb(72, 72, 72);
+    box-shadow: rgb(37, 37, 37) 6px 12px 20px 0px ;
+    z-index: 3;
+    
+}
+.name{
+    position: relative;
+    color:rgb(255, 255, 255);
+    left:0%;
+    top:35%;
+    text-shadow: 2px 5px 5px black;
+}
+p{
+    left:3%;
+    position: absolute;
+    font-size: 25px;
+    
 }
     
 .project1>img{
@@ -90,15 +133,26 @@ body{
 }
 
 .project2{
-    width:300px;
-    height:212px;
-    border-radius: 20px;
+    width:500px;
+    height:290px;
+    border-radius: 5px;
     overflow: hidden;
-    margin-bottom:50px;
+    margin-bottom:80px;
+    background: rgb(72, 72, 72);
+    box-shadow: rgb(37, 37, 37) 6px 12px 20px 0px ;
+    z-index: 3;
 }
 .project2>img{
     height: 100%;
     width:100%;
+}
+.name{
+    position: relative;
+    color: white;
+    left:0%;
+    top:35%;
+    text-shadow: 2px 5px 5px black;
+
 }
 
 .pro3img{
@@ -106,16 +160,21 @@ body{
     display: flex;
     justify-content: center;
     width:100%;
+    
 
 }
 
 .project3{
-    width:300px;
-    height:212px;
-    border-radius: 20px;
+    width:500px;
+    height:290px;
+    border-radius: 5px;
     overflow: hidden;
-    margin-bottom:50px;
+    margin-bottom:80px;
+    background: rgb(72, 72, 72);
+    box-shadow: rgb(37, 37, 37) 6px 12px 20px 0px ;
+    z-index: 3;
 }
+
 .project3>img{
     height: 100%;
     
@@ -129,23 +188,28 @@ body{
 }
 
 .project4{
-    width:212px;
-    height:300px;
+    width:400px;
+    height:600px;
     border-radius: 20px;
     overflow: hidden;
     
-    margin-bottom:50px;
+    margin-bottom:80px;
 }
 .project4>img{
     height: 100%;
     
     
 }
-.proimg:hover{
-    transform: scale(1.1);
+.project1:hover{
+    transform: scale(1.03);
     transition: 0.1s;
 
 
+
+}
+.box{
+    transform: scale(1.03);
+    transition: 0.1s;
 
 }
 .pro2img:hover{

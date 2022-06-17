@@ -103,3 +103,6 @@ body{
     width: 120%;
     
  }
+ ::-webkit-scrollbar { 
+    display: none;
+}

@@ -72,3 +72,6 @@ body{
 .box1{
     position: absolute;
 }
+::-webkit-scrollbar { 
+    display: none;
+}

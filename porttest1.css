@@ -288,3 +288,6 @@ body{
 #about h1 {
     margin: 24px 0;
 }
+::-webkit-scrollbar { 
+    display: none;
+}

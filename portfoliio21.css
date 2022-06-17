@@ -116,7 +116,8 @@ backdrop-filter: blur(5px);
   border-radius: 20px;
   text-decoration: none;
   font-weight: 500;
-  box-shadow: 0 5px 15px rgba(0,0,0, 0.2);  
+  box-shadow: 0 5px 15px rgba(0,0,0, 0.2); 
+  z-index: 10; 
    
    
 
@@ -128,6 +129,8 @@ backdrop-filter: blur(5px);
     top:13%;
     animation-name: n2;
       animation-duration: 2s;
+      
+      z-index: 10; 
   }
   @keyframes n2{
       from{
@@ -138,13 +141,13 @@ backdrop-filter: blur(5px);
   
       }
   }
-  @media (max-width:800px){
+  @media (max-width:979px){
       .logo{
           position: absolute;
           left:10%;
           
-          top:13%;
-          width:8%
+          top:8%;
+          width:30%
           
       }
       .logo>img{
@@ -167,6 +170,7 @@ backdrop-filter: blur(5px);
      
      animation-name: n3;
      animation-duration: 2s;
+     text-shadow: 12px 12px 12px rgb(0, 0, 0);
   }
   
   @keyframes n3{
@@ -179,3 +183,20 @@ backdrop-filter: blur(5px);
      }
   
   }
+  @media (max-width:970px)
+  {
+
+  .name{
+    position: absolute;
+    color: white;
+    top: 12%;
+    left:40%;
+    font-size: 6vh;
+    opacity: 0;
+    animation-name: n3;
+    animation-duration: 2s;
+    text-shadow: 12px 12px 12px rgb(0, 0, 0);
+ }}
+ ::-webkit-scrollbar { 
+    display: none;
+}

@@ -134,6 +134,9 @@ body{
     font-size: 20px;
     margin: 20px;
 }
+::-webkit-scrollbar { 
+    display: none;
+}
 
 
 

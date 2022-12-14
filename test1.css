@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+
+}
+.container .card .imgBx    /* 여기가 카드 메인*/
+{
+    position:relative;
+    width:500px;
+    height:600px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    
+}
+.container .card .imgBx img
+
+{
+    max-width: 100%;
+}
+.container .card .imgBx h3
+{
+    position: relative;
+    color:#000;
+    margin-top:10px;
+    font-size: 80px;
+}
+
+.container > a {text-decoration: none;}
